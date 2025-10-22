@@ -7,6 +7,7 @@ interface Config {
   nodeEnv: string;
   clientId: string;
   clientSecret: string;
+  jwtKey: string;
 }
 
 const config: Config = {
@@ -14,6 +15,7 @@ const config: Config = {
   nodeEnv: process.env.NODE_ENV || 'development',
   clientId: process.env.CLIENT_ID || "",
   clientSecret: process.env.CLIENT_SECRET || "",
+  jwtKey: process.env.JWT_KEY || "",
 };
 
 export default config;
