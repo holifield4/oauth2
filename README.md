@@ -16,3 +16,13 @@ OAuth2 login with google
 - TypeScript
 
 ## Getting Started
+
+Install dependencies for backend/frontend and run the app
+
+```js
+    npm install
+    npm run dev
+```
+
+Explore the app and the "Greetings from server" button should prompt user is authorized or not
+
